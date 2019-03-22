@@ -1,5 +1,5 @@
 # shebang.js
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bc02cd96-0256-4cba-a8dc-1c7f35d61462/deploy-status)](https://app.netlify.com/sites/shebang-js/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8efcf813-403c-41c2-bfda-8844492c21b9/deploy-status)](https://app.netlify.com/sites/shebang-js/deploys)
 
 ## Resources
 
