@@ -1,1 +1,20 @@
+h1, h2 {
+	text-align: center;
+}
 
+.centre {
+	display: block;
+	margin: 0 auto;
+}
+
+.centre-text {
+	text-align: center;
+}
+
+.container {
+	padding-top: 5rem;
+}
+
+.github-fork-ribbon:before {
+	background-color: #333;
+}

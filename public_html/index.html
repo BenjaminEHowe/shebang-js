@@ -5,24 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
-	<style>
-		h1, h2 {
-			text-align: center;
-		}
-
-		.container {
-			padding-top: 5rem;
-		}
-
-		.github-fork-ribbon:before {
-			background-color: #333;
-		}
-	</style>
+	<link rel="stylesheet" href="css/styles.css" />
 	<title>shebang.js</title>
 </head>
 <body>
 	<div class="container">
-		<img src="img/shebang.svg" height=90 width=90 alt="shebang.js logo" style="display:block; margin:0 auto" />
+		<img src="img/shebang.svg" height=90 width=90 alt="shebang.js logo" class="centre" />
 		<h1>shebang.js</h1>
 		<h2>... and the information disclosure is <s>gone</s> <ins>reduced</ins></h2>
 		<!-- https://www.youtube.com/watch?v=6vCr6gNQmJU&t=17 -->
@@ -34,7 +22,7 @@
 			<li>the URI can be bookmarked (and potentially synced using an untrusted internet service)</li>
 			<li>the URI will be written to the history (which is usually written to disk)</li>
 		</ul>
-		<p>All of these issues (except the final issue) can be remediated using shebang.js - a tool to pass parameters as part of the <a href="https://tools.ietf.org/html/rfc3986#section-3.5">fragment of a URI</a>.</p>
+		<p>All of these issues (except the final issue) can be remediated using shebang.js - a tool to pass parameters as part of the <a href="https://tools.ietf.org/html/rfc3986#section-3.5">fragment of a URI</a>, where it is not feasible to use an alternative method (e.g. POST).</p>
 		<div class="row">
 			<div class="col-sm-6">
 				<h3>Instead of...</h3>
@@ -45,14 +33,9 @@
 				<code>https://www.example.com/login<strong>#!</strong>secret=ztpHck7...</code>
 			</div>
 		</div>
-		<h3>When should you use shebang.js?</h3>
-		<p>Todo...</p>
-		<h3>When <u>shouldn't</u> you use shebang.js?</h3>
-		<p>Todo...</p>
 		<h3>Usage</h3>
 		<p>Todo...</p>
-		<h3>Example / Live Demo</h3>
-		<p>Todo...</p>
+		<p class="centre-text"><a href="#!" class="btn btn-primary">Example / Live Demo</a></p>
 		<h3>Contribute</h3>
 		<p>This technology was <a href="https://github.com/BenjaminEHowe/yamm-website/commit/fe63832d5c159b6ac31233a847934c5c98fd8ac2#diff-413b37e67485d3612af42d67014f6ab9">conceived by the author while writing his final year project</a>, although <a href="https://www.w3.org/blog/2011/05/hash-uris/">the idea was originally published much earlier</a>. This project is <a href="https://github.com/BenjaminEHowe/shebang-js/">open-source on GitHub</a> (<a href="https://github.com/BenjaminEHowe/shebang-js/blob/master/LICENSE">licensed under the MIT license</a>). Pull requests welcome!</p>
 		<p>Thanks to <a href="https://www.netlify.com/">Netlify</a> (who are providing free hosting for this website) and Stefan Keim (who provides a <a href="https://js.org/">free (sub)domain through js.org</a>), as well as all the <a href="https://github.com/BenjaminEHowe/shebang-js/graphs/contributors">shebang.js contributers</a>, who collectively have made this project possible.</p>
